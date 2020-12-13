@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- JavaScript Bundle with Popper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link href="behaviours.js" rel="behaviours">
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Bootstrap Features Used</title>
+  </head>
+  <body>
+    
+    
+        <!-- Nav -->
+
+        <nav class="navbar navbar-expand-md bg-info navbar-dark sticky-top">
+          <a class="navbar-brand" href="index.html">Go Back</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#workHistory">Work History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects & Interests</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li> 
+            </ul>
+          </div>   -->
+        </nav>
+
+        <!-- End nav -->
+
+
+
+      <div class="container-fluid">
+        <a name="aboutMe">
+        <div class="aboutMe">
+          <div class="row">
+            <div class="ml-3 mt-3 col-sm-2">
+              <!-- <p class="display-4"></p>   -->
+            </div>
+                <div class="ml-3 mt-3 col-sm-8">
+                    <br>
+                    <p class="display-4">This CA - Bootstrap 4</p>
+                    <h5>This CA was completed as part of the Interactive Media Design module in year 4 of Computing.</h5>
+                    <br>
+                    <h5>This was an excercise in exploring Bootstrap and shows that fully fledged UI designs can be achieved using Bootstrap in combination with minimal custom CSS tweaks.</h5>
+                    <br>
+                    <h5>This was an enjoyable excercise in designing a UI and has given me confidence that I do not need to have specialist design skills to be able to craft a useable website / UI interface.</h5>
+                    <br>
+                  </div>
+              <div class="ml-3 mt-3 col-sm-2">
+                  <br>
+                  <!-- <p class="display-4"></p>   -->
+              </div>
+        </div>
+        </div>
+       
+        </div>
+      </a>
+        <!-- End AboutMe -->
+
+        
+
+        <!-- Bootstrap Features -->
+        <div class="ml-5 mr-5 mt-5 mb-5 bootstrap-features">
+          
+          <p class="display-4">Bootstrap 4 - Features by page section</p>
+
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Hero</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-nav-tab" data-toggle="pill" href="#pills-nav" role="tab" aria-controls="pills-nav" aria-selected="false">Nav</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-aboutme-tab" data-toggle="pill" href="#pills-aboutme" role="tab" aria-controls="pills-aboutme" aria-selected="false">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-work-history-tab" data-toggle="pill" href="#pills-work-history" role="tab" aria-controls="pills-work-history" aria-selected="false">Work History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="false">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-footer-tab" data-toggle="pill" href="#pills-footer" role="tab" aria-controls="pills-footer" aria-selected="false">Footer</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <ul>
+                  <li>
+                    <h4>Container Fluid</h4>
+                    <p>Started with a container fluid - most useful when thinking responsively 99% of the time.</p>
+                    <h4>Jumbotron</h4>
+                    <p>Nice element to provide an impact / hero area of the page. Modified this to contain a background image & overlaid it with my own image, social links and a contact button.</p>
+                    <p>Also found a very useful CSS class "vertical-center" which I applied to all elements overlaying the Jumbotron to keep them in place relative to each other.</p>
+                    <h4>Modal</h4>
+                    <p>I used a modal to overlay a form once the user clicked the "Contact" button</p>
+                    <p>This also lives within the Jumbotron tags so that it stays consistently in this space.</p>
+                </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="pills-nav" role="tabpanel" aria-labelledby="pills-nav-tab">
+                <ul>
+                    <li>
+                      <h4>Sticky Nav</h4>
+                      <p>I wanted to ensure the nav was as user friendly as possible given that this page would be text heavy.</p>
+                      <p>I decided on a sticky nav that scrolls with you by sticking to the top of the page on scroll.</p>
+                      <p>The nav is fully responsive, and changes to contain a hamburger menu on a smaller screen</p>
+                  </li>
+                  </ul>
+                
+              </div>
+              <div class="tab-pane fade" id="pills-aboutme" role="tabpanel" aria-labelledby="pills-aboutme-tab">
+                <ul>
+                    <li>
+                      <h4>Grid System</h4>
+                      <p>In this section and throughout most of the page, I relied on the Bootstrap grid system to provide me with a unifrom way to manage divs and their positioning on the page.</p>
+                      <p>The content in this section is positioned by placing two empty div columns either side of it</p>
+                      <h4>Inline margining</h4>
+                      <p>A very useful technique I discovered during this CA was the ability to add margin to divs inline where the div class is declared.</p>
+                      <p>And example of this is < div class="mt-5 mb-5 myDivClass">.... < /div> , which will add a margin top and bottom of 5px, without needing a CSS rule.</p>
+                  </li>
+                  </ul>
+
+              </div>
+              <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+                <ul>
+                    <li>
+                      <h4>Accordian</h4>
+                      <p>This section of the page required some thought as there was potentially a lot of information to display and I had to get creative about how to display it, so that the UX principles were adhered to.</p>
+                      <p>There are 3 sections in the accordian which expand and collapse on click or touch on a device.</p>
+                      <h4>Vertical Flex Pills Nav</h4>
+                      <p>To reflect each year of study and the modules covered at TUD, I chose a sidebar nav style which has a very nice fade effect on the content displayed in the main area.</p>
+                      <p>This is called a collection of Bootstrap 'pills'. In fact it is a horizontal version of these I have also used, and in which you are viewing this content in right now.</p>
+                      <h4>GPA Display - Grid System</h4>
+                      <p>Within this parent, (the Pills element) I also made use of the grid system to display my GPA for each year, and floated this right to fill out the page.</p>
+                    </li>
+                  </ul>
+
+              </div>
+              <div class="tab-pane fade" id="pills-work-history" role="tabpanel" aria-labelledby="pills-work-history-tab">
+                <ul>
+                    <li>
+                      <h4>Grid System</h4>
+                      <p>In this section I again relied heavily on the grid system to lay out my work experience history.</p>
+                      <h4>Responsive display:none</h4>
+                      <p>I used the Bootstrap img-fluid class wherever possible, but found the company logos problematic when looking through some of the device type emulators in Chrome developer tools. I therefore decided to add a rule whereby once a screensize gets smaller than 768px, these images should not display.</p>
+                      <h4>Border</h4>
+                      <p>I added a small border-right property here to give a nice line seperator between the divs, with margin on either side of it. This is not perfect with responsive, but it works for most screens.</p>
+                  </li>
+                  </ul>
+
+              </div>
+              <div class="tab-pane fade" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
+                <ul>
+                    <li>
+                      <h4>Horizontal Flex Pills</h4>
+                      <p>Similar in nature to how I approached the Education section, but for the sake of variety, I designed this section to make use of a horizontal style nav. again using the Bootstrap pills classes. I have reused this section to neatly display this content on this page.</p>
+                  </li>
+                  </ul>
+
+              </div>
+              <div class="tab-pane fade" id="pills-footer" role="tabpanel" aria-labelledby="pills-footer">
+                <ul>
+                    <li>
+                      <h4>Background Image</h4>
+                      <p>Added via the custom CSS, I reused the header background image here, as I feel it looks nice and rounds off the overall design of the page</p>
+                      <h4>Contact Form</h4>
+                      <p>Making use of the ever present grid system, I have overlaid the contact form here. The form itself will not submit unless a user enters an email address in the valid format. It does this by checking against a regular expression pattern.</p>
+                      <h4>Social Links</h4>
+                      <p>The social links, as in the header section are links to the respective pages and will open in a new tab on click.</p>           
+                  </li>
+                  </ul>
+
+              </div>
+            </div>
+
+            <!-- From https://getbootstrap.com/docs/4.0/components/navs/ -->
+
+        </div>
+        <!-- End Bootstrap Features -->   
+
+        
+        <div class="ml-5 mr-5 mt-5 mb-5 wireframes">
+          
+            <p class="display-4">Wireframes</p>
+            <p>At the start of this project, I used an online tool called Balsamiq to sketch a quick wireframe of the page. This was useful as it took the guesswork out of things and allowed me to focus on the code and layout instead of making design choices on the fly.</p>
+            <p>The wireframes can be viewed <a href="https://share.balsamiq.com/c/fgYHpz8BUzGTvQzNTufqxp.png"> here</a>, and <a href="https://share.balsamiq.com/c/rvCE1nA7wskniTi2o3w2s.png"> here.</a></p>
+            
+            
+        </div>
+    
+
+      <a name="contact">
+          <footer>
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3">
+                  <h2>LinkedIn</h2>
+                  <a href="https://www.linkedin.com/in/stephenmurphy123/" target="_blank">
+                    <img src="img/linkedin_web_grey.jpg" alt="linkedin" class="rounded-circle">
+                  </a>
+                </div>
+
+                
+                <div class="col-md-6">
+                <form>
+                  <p class="mt-5 display-4">Get in touch...</p>
+                  <div class="form-group mt-5">
+                      <label for="firstNameInput">First Name</label>
+                      <input type="text" class="form-control" id="firstNameInput"  placeholder="Enter first name">
+                    </div>
+                    <div class="form-group">
+                      <label for="lastNameInput">Last Name</label>
+                      <input type="text" class="form-control" id="lastNameInput"  placeholder="Enter last name">
+                    </div>
+                  <!-- <div class="form-group">
+                    <label for="emailInput">Email address</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div> -->
+                  <div class="form-group">
+                    <label for="emailInput">Email Address</label>
+                  <input type="email" name="email" placeholder="Enter email address eg: you@example.com" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                  <div class="valid-feedback feedback-pos">
+                    <p>Looks good!</p>
+                  </div>
+                  <div class="invalid-feedback feedback-pos">
+                    <p>Please input valid email ID</p>
+                  </div>
+                </div>
+
+                  <div class="form-group">
+                      <label for="formQuery">What can I do for you?</label>
+                      <textarea class="form-control" id="formQuery" rows="3" placeholder="Ask a question..."></textarea>
+                    </div>
+                  <div class="form-group form-check">
+
+                  </div>
+                  <button type="submit" class="mb-5 btn btn-info">Submit</button>
+                </form>
+              </div>
+            
+
+
+                <div class="col-md-3">
+                  <h2>Github</h2>
+                  <a href="https://github.com/murphste" target="_blank">
+                    <img src="img/github_web_grey.png" alt="github" class="rounded-circle">
+                  </a>
+                </div>
+              </div>
+              </div>
+        </div>
+          </footer>
+        </a>
+
+
+
+
+
+          <!-- <div class="mt-5 mb-5 container-fluid text-center"> -->
+              <!-- <h3>Socials</h3>
+              <div class="footer">
+              <div class="mt-5 mb-5 contact">
+                <img src="img/github_web_grey.png" class="ml-5 mr-5 rounded-circle">
+
+                <img src="img/linkedin_web_grey.jpg" class="ml5 mr-5rounded-circle">
+              </div>
+            </div> -->
+          <!-- </div> -->
+
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+</html>

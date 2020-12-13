@@ -1,0 +1,758 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- JavaScript Bundle with Popper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link href="behaviours.js" rel="behaviours">
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Stephen Murphy</title>
+  </head>
+  <body>
+    
+    <div class="container-fluid text-center">
+        
+          <!-- Begin Hero -->
+
+                <div class="jumbotron jumbotron-fluid">
+
+                  <div class="vertical-center">
+                  
+                  <!-- Large name -->
+                  <div class="mb-5 myName">
+                  <h1 class="display-3">Stephen Murphy</h1>
+                  </div>
+                  <img src="img/stephen.jpg" class="rounded-circle">
+                  
+                  <!-- Sub title / intro -->
+                  <div class="mt-5 mb-5 hero-sub-title">
+                        <h3>4th yr Bsc (Hons) Computing student | Software Development | TUD Tallaght</h3>
+                  </div>
+
+                  <!-- Contact button & icons -->
+                <div class="mt-5 contact">
+                  <a href="https://www.linkedin.com/in/stephenmurphy123/" target="_blank">
+                    <img src="img/linkedin_web_grey.jpg" alt="linkedin" class="rounded-circle">
+                  </a>
+
+
+                  <!-- Trigger the modal with a button -->
+                <button type="button" class="ml-5 mr-5 btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Contact Me</button>
+
+
+                <a href="https://github.com/murphste" target="_blank">
+                  <img src="img/github_web_grey.png" alt="github" class="rounded-circle">
+                </a>
+                </div>
+
+
+                <!-- Modal --> 
+              <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"></h4>
+              </div>
+                <div class="modal-body">
+                  <form>
+                    <p class="display-4">Get in touch...</p>
+                    <div class="form-group mt-5">
+                        <label for="firstNameInput">First Name</label>
+                        <input type="text" class="form-control" id="firstNameInput"  placeholder="Enter first name">
+                      </div>
+                      <div class="form-group">
+                        <label for="lastNameInput">Last Name</label>
+                        <input type="text" class="form-control" id="lastNameInput"  placeholder="Enter last name">
+                      </div>
+                    <!-- <div class="form-group">
+                      <label for="emailInput">Email address</label>
+                      <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div> -->
+                    <div class="form-group">
+                      <label for="emailInput">Email Address</label>
+                    <input type="email" name="email" placeholder="Enter email address eg: you@example.com" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    <div class="valid-feedback feedback-pos">
+                      Looks good!
+                    </div>
+                    <div class="invalid-feedback feedback-pos">
+                      Please input valid email ID
+                    </div>
+                  </div>
+  
+                    <div class="form-group">
+                        <label for="formQuery">What can I do for you?</label>
+                        <textarea class="form-control" id="formQuery" rows="3" placeholder="Ask a question..."></textarea>
+                      </div>
+                    <div class="form-group form-check">
+  
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!-- End Hero -->
+    
+        <!-- Nav -->
+
+        <nav class="navbar navbar-expand-md bg-info navbar-dark sticky-top">
+          <a class="navbar-brand" href="#">Stephen Murphy</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#workHistory">Work History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects & Interests</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li> 
+            </ul>
+          </div>  
+        </nav>
+
+        <!-- End nav -->
+
+
+
+      <div class="container-fluid">
+        <a name="aboutMe">
+        <div class="aboutMe">
+          <div class="row">
+            <div class="ml-3 mt-3 col-sm-2">
+              <!-- <p class="display-4"></p>   -->
+            </div>
+                <div class="ml-3 mt-3 col-sm-8">
+                    <br>
+                    <p class="display-4">About Me</p>
+                    <h5>I am a final year student of a 4 year Bsc Hons Computing course in TUD Tallaght.</h5>
+                    <br>
+                    <h5>When it comes to IT, I have always been obsessed with how things work and are connected under the hood and am driven by a mindset of constant learning. Prior to returning to third level education, I gained IT experience with roles in a web design agency and in sales & digital marketing, working client side as an Account Manager in a number of roles.</h5>
+                    <br>
+                    <h5>On returning to education as a mature student, I am happy to say that I feel I have truly found my passion in software development and the encompassing eco-system. I have always had a keen interest in development, and am happy to have taken the plunge to return to college to reskill in this area.</h5>
+                    <br>
+                  </div>
+              <div class="ml-3 mt-3 col-sm-2">
+                  <br>
+                  <!-- <p class="display-4"></p>   -->
+              </div>
+        </div>
+        </div>
+       
+        </div>
+      </a>
+        <!-- End AboutMe -->
+    
+    
+        
+    
+    
+        <div class="ml-5 mr-5 education">
+          <a name="education">
+          <p class="display-4">Education</p>
+
+
+            <div class="accordion" id="accordionExample">
+              <!-- Tallaght -->
+              <div class="card">
+
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <h4>TUD - Tallaght</h4>
+                      <label for="card-header">Click to expand / collapse</label>
+                      <h6>Bsc (Hons) Computing 2017-2021</h6>
+                    </button>
+                  </h2>
+                </div>
+
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+
+                    <!-- Tallaght Year Nav -->
+                    <div class="row">
+
+                      <div class="col-3">
+                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Year 4      </a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Year 3     </a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Year 2      </a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Year 1      </a>
+                      </div>
+                    </div>
+                    <!-- Tallaght Year detail -->
+                    <div class="col-9">
+                      <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                          <ul>
+                            <li>
+                              <p>Final year project</p>
+                            </li>
+                            <li>
+                              <p>Enterprise Applications Development 1</p>
+                            </li>
+                            <li>
+                              <p>Algorithms & Computation</p>
+                            </li>
+                            <li>
+                              <p>Interactive Media Design & Visualisation</p>
+                            </li>
+                            <li>
+                              <p>Information Management</p>
+                            </li>
+                            <li>
+                              <p>DevOps - CI/CD</p>
+                            </li>
+                            <li>
+                              <p>Enterprise Applications Development 2</p>
+                            </li>
+                            <li>
+                              <p>Computational Theory</p>
+                            </li>
+                            <li>
+                              <p>Enterprise Performance Architecture</p>
+                            </li>
+
+                          </ul>
+                          
+                            <div class="gpa">
+                            <h6>Stage GPA:</h6>
+                            <h4>3.05</h4>
+                          </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                          
+                          <ul>
+                            <li>
+                              <p>Cloud Services & Distributed Computing</p>
+                            </li>
+                            <li>
+                              <p>Data Structures and Algorithms</p>
+                            </li>
+                            <li>
+                              <p>Server-Side Web Development</p>
+                            </li>
+                            <li>
+                              <p>Big Data Technologies</p>
+                            </li>
+                            <li>
+                              <p>Operating Systems</p>
+                            </li>
+                            <li>
+                              <p>Data Analysis (Elective)</p>
+                            </li>
+                            <li>
+                              <p>Internship at Fidelity Investments</p>
+                            </li>
+                            
+                          </ul>
+
+                          <div class="gpa">
+                            <h6>Stage GPA:</h6>
+                            <h4>3.05</h4>
+                          </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                          <ul>
+                            <li>
+                              <p>Software Development 3</p>
+                            </li>
+                            <li>
+                              <p>Software QA and Testing</p>
+                            </li>
+                            <li>
+                              <p>Advanced Database Technologies</p>
+                            </li>
+                            <li>
+                              <p>Networking Fundamentals</p>
+                            </li>
+                            <li>
+                              <p>Client-Side Web Development</p>
+                            </li>
+                            <li>
+                              <p>Discrete Mathematics 2</p>
+                            </li>
+                            <li>
+                              <p>Software Development 4</p>
+                            </li>
+                            <li>
+                              <p>Project</p>
+                            </li>
+                            <li>
+                              <p>Data Administration and Analysis</p>
+                            </li>
+                            <li>
+                              <p>Routing & Switching Essentials</p>
+                            </li>
+                            <li>
+                              <p>Information Security</p>
+                            </li>
+                            <li>
+                              <p>Management Science</p>
+                            </li>
+                          </ul>
+
+                          <div class="gpa">
+                            <h6>Stage GPA:</h6>
+                            <h4>3.29</h4>
+                          </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                          <ul>
+                            <li>
+                              <p>Software Development 1</p>
+                            </li>
+                            <li>
+                              <p>Discrete Mathematics 1</p>
+                            </li>
+                            <li>
+                              <p>Visual Design & User Experience</p>
+                            </li>
+                            <li>
+                              <p>Critical Skills Development</p>
+                            </li>
+                            <li>
+                              <p>Computer Architecture</p>
+                            </li>
+                            <li>
+                              <p>Business & Information Systems</p>
+                            </li>
+                            <li>
+                              <p>Software Development 2</p>
+                            </li>
+                            <li>
+                              <p>Systems Analysis</p>
+                            </li>
+                            <li>
+                              <p>Database Fundamentals</p>
+                            </li>
+                            <li>
+                              <p>Statistics</p>
+                            </li>
+                            <li>
+                              <p>Operating Systems Fundamentals</p>
+                            </li>
+                            <li>
+                              <p>Social Media Communications</p>
+                            </li>
+                          </ul>
+
+
+                          <div class="gpa">
+                            <h6>Stage GPA:</h6>
+                            <h4>3.79</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                      
+
+              </div>
+                <!-- End of card body -->
+
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- NCI -->
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <h4>NCI - National College of Ireland</h4>
+                      <label for="card-header">Click to expand / collapse</label>
+                      <h6>Certificate in Digital Marketing 2014-2015</h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    <h5>Course Modules:</h5>
+                    <ul>
+                      <li>
+                        <h6>Digital Marketing Landscape & Strategy</h6>
+                      </li>
+                      <li>
+                        <h6>Project Management</h6>
+                      </li>
+                      <li>
+                        <h6>Technology & UX</h6>
+                      </li>
+                      <li>
+                        <h6>Social Media Marketing - ORM & PR</h6>
+                      </li>
+                    </ul>
+                  
+                  </div>
+                </div>
+              </div>
+                
+                
+
+
+              </div>
+
+              <!-- St. Peters -->
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <h4>St. Peters College, Wexford</h4>
+                      <label for="card-header">Click to expand / collapse</label>
+                      <h6>Leaving Certificate 2007</h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <h5>Leaving Certificate 2007:</h5>
+                    <h6>310 points</h6>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            <!-- End accordian -->
+
+
+        </div>
+      </a>
+        <!-- End education -->
+        
+        <!-- Begin Work History -->
+        <a name="workHistory"></a>
+        <div class="container-fluid">
+        <div class="ml-5 mr-5 mt-5 workHistory">
+          <p class="display-4">Work History</p>
+
+            
+            <div class="row">
+            <span class="mb-3 border-right border-info">
+              <div class="mb-5 ml-3 mr-5 company-logo">
+                <img class="img-fluid" src="img/fidelity150.png">
+              </div>
+            </span>
+
+            
+
+              <div class="mb-3 ml-3 col-sm-8">
+                <div class="work-detail">
+                  <h4>Fidelity Investments</h4>
+                  <h5>Jan 2020 - August 2020</h5>
+                  <h6>Intern Software Developer</h6>
+                  <br>
+                  <p>I was an intern software developer at Fidelity during my 3rd year placement.</p>
+              </div>
+            </div>
+            </div>
+
+            <div class="row">
+              <span class="mt-3 mb-3 border-right border-info">
+                <div class="mb-5 ml-3 mr-5 company-logo">
+                  <img class="img-fluid" src="img/radical150.png">
+                </div>
+              </span>
+  
+  
+  
+                <div class="col-sm-8">
+                  <div class="mt-3 ml-3 mb-3 work-detail">
+                    <h4>Radical (Core Media)</h4>
+                    <h5>August 2016 - January 2017</h5>
+                    <h6>Client Associate (Digital Media)</h6>
+                    <br>
+                    <p>As a former branch of Core (onecore.ie), my position at Radical saw me positioned as a Client Associate liaising with a variety of clients such as Four Star Pizza, Irish state sponsored body Tech Life Ireland & blue-chip insurance firm Robertson Low.
+
+                      I worked in tandem with teams spanning Search, Social, Creative, Strategy & Tech on tailored digital strategies and executions across channels - while focusing on maintaining relationships & strong rapport with clients throughout.
+                      
+                      A large part of my role at Radical was working closely with the Production team to schedule commissioned work and ensure all agency hours were approved, logged & recorded against agreed client budgets - using project management software (Teamwork & Resource Guru) and cost management platform (Aura).
+                      
+                      I finished this role in January 2017 to pursue my studies of Computer Science & to become a more technically adept professional, for which I am currently studying a Bachelors degree in Computing.</p>
+                </div>
+              </div>
+              </div>
+
+              <div class="row">
+                <span class="mt-3 mb-3 border-right border-info">
+                  <div class="mb-5 ml-3 mr-5 company-logo">
+                    <img class="img-fluid" src="img/sing150.png">
+                  </div>
+                </span>
+    
+    
+    
+                  <div class="col-sm-8">
+                    <div class="mt-3 ml-3 mb-3 work-detail">
+                      <h4>Sing Ltd (Partnered with I-Believe & Insightful Media)</h4>
+                      <h5>November 2015 - August 2016</h5>
+                      <h6>Solution Sales Associate (Digital Media)</h6>
+                      <br>
+                      <p>Sing! is a strategic performance marketing agency which focuses on improving digital sales performance through digital channels.
+
+                        I worked prospecting new business for a wide range of services such as: Strategic Planning, Digital Audits, Programmatic Media, SEO, PPC, Content Marketing & Outreach, Social Media, Cart Abandonment, Display and Native Advertising.</p>
+                  </div>
+                </div>
+                </div>
+
+                <div class="row">
+                  <span class="mt-3 mb-3 border-right border-info">
+                    <div class="mb-5 ml-3 mr-5 company-logo">
+                      <img class="img-fluid" src="img/enhance150.png">
+                    </div>
+                  </span>
+      
+      
+      
+                    <div class="col-sm-8">
+                      <div class="mt-3 ml-3 mb-3 work-detail">
+                        <h4>enhance.ie - Granite Digital</h4>
+                        <h5>August 2013 - November 2015</h5>
+                        <h6>Account Manager (Web Design/Development)</h6>
+                        <br>
+                        <p>At enhance I focused largely on prospecting, converting, documenting & initiating new business.
+                          It was my role to be the touchpoint for a client throughout the lifecycle of their project being designed and developed.
+                          Key to this was discussions on and strategic planning of wireframes; pre production & site mapping through to finalised flat designs.
+                          I became familar Working with CMS platform - WordPress & gained a good working knowledge of the appliances of different web languages such as PHP, Javascript, HTML & CSS etc.
+                          The business was based in three locations, therefor requiring strong communication and organisational skills to achieve client success.
+                          Here I developed a good sense of judgment in relation to common web design & online principles.</p>
+                    </div>
+                  </div>
+                  </div>
+
+
+        </div>
+      </div>
+      </a>
+        <!-- End Work History -->
+        
+
+        <!-- Begin Projects & Achievements -->
+        <a name="projects">
+        <div class="ml-5 mr-5 mt-5 mb-5 projectsAchievements">
+          
+          <p class="display-4">Projects & Interests</p>
+
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">4th Year Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Internship</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Musicianship</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <p>My final year project is a blockchain based dApp (decentralised application), built on the Ethereum platform. It is an application to model a basic supply chain. The functionality will enable a Producer to create an item, which will be made available for purchase by and delivery to a Middleman, who in turn can pay the Producer and make the item available for purchase and delivery to an End User - who can pay the Middleman and consume the item, ending the chain.</p>
+                <p>All payments within the system will be made in Ether (the native crypto currency to Ethereum platform) - and I will be using the Goerli test net to provide "free" Ether for development purposes.</p>
+                <br>
+                <p>The blockchain platform was chosen as an alternative to a traditional database backend as by design this platform has in-built immutability and traceability characteristics - enabling the items lifecycle to be traced directly back to the source without any doubt upon the integrity of the journey.</p>
+                <br>
+                <p>The project is an end to end full stack application, making use of the following tools:</p>
+                <ul>
+                  <li>
+                    <h4>Ethereum</h4>
+                    <p>(Solidity, Remix, Metamask, Ganache, Infura)</p>
+                  </li>
+                  <li>
+                    <h4>Nethereum</h4>
+                    <p>(C# .Net Core framework for interfacing with Ethereum smart contracts)</p>
+                  </li>
+                  <li>
+                    <h4>.Net Core</h4>
+                    <p>(Mid-tier server side application to handle business logic of the application and manage service classes, MSTest framework for unit testing)</p>
+                  </li>
+                  <li>
+                    <h4>Blazor</h4>
+                    <p>(WASM Web Assembly front end framework for C# for the UI)</p>
+                  </li>
+                  <li>
+                    <h4>Azure</h4>
+                    <p>(App Service for deployment & hosting, Pipelines for CI/CD)</p>
+                  </li>
+                </ul>
+                <div class="mt-5 project-diagram">
+                <img class="img-fluid" src="img/LogicalArchitectureDiagram.png" alt="project-architecture">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                <p>On my internship at Fidelity Investments I was given the opportunity to work with some industry standard tools and to put them to use on some mini projects.</p>
+                <uL>
+                  <li>
+                    <h4>Java Spring</h4>
+                    <p>I was introduced to Java Spring framework by colleagues and took some time to get familiar enough to work with it. I used tutorials as a guide and followed two specific lessons which resulted in developing a Coronavirus tracker application & a server side REST API project. See my internship <a href="https://github.com/murphste/internship-apps">Github repo</a>
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Angular</h4>
+                    <p>I used Angular to develop a client side application which would serve as a pipeline monitor for various connected Java services within my teams workflow. The UI was fully mobile responsive. The app contained a HTTP call to an internal API provided by a colleague to display and handle data.</p>
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Jenkins</h4>
+                    <p>I got an introduction to DevOps by using Jenkins. I was assigned a task of troubleshooting a pipeline deployment issue. This is experience I have built on in my 4th year in the DevOps module undertaken.</p>
+                    </p>
+                  </li>
+                </uL>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <p><p>I have been a keen musician for many years.</p>
+                <ul>
+                  <li>
+                    <h4>Drums</h4>
+                    <p>I have played drums since the age of 14.</p>
+                  </li>
+                  <li>
+                    <h4>Guitar</h4>
+                    <p>In recent years I have also taken to playing guitar too. I prefer acoustic guitar to electric.</p>
+                  </li>
+                  <li>
+                    <h4>Live</h4>
+                    <p>I have performed with many bands and artists throughout this time as a drummer and am very much looking forward to the "post Covid" period when live music resumes so I can continue where I left off with this!</p>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+            <!-- From https://getbootstrap.com/docs/4.0/components/navs/ -->
+
+        </div>
+      </a>
+        <!-- End Projects & Achievements -->   
+
+        <div class="container-fluid text-center">
+        <div class="bootstrapFeaturesBanner">
+          <a href="bootstrap-features.html" target="_blank"><h2>For CA Grading - Link to Bootstrap elements used</h2></a>
+          
+        </div>
+      </div>
+    
+
+      <a name="contact">
+          <footer>
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3">
+                  <h2>LinkedIn</h2>
+                  <a href="https://www.linkedin.com/in/stephenmurphy123/" target="_blank">
+                    <img src="img/linkedin_web_grey.jpg" alt="linkedin" class="rounded-circle">
+                  </a>
+                </div>
+
+                
+                <div class="col-md-6">
+                <form>
+                  <p class="mt-5 display-4">Get in touch...</p>
+                  <div class="form-group mt-5">
+                      <label for="firstNameInput">First Name</label>
+                      <input type="text" class="form-control" id="firstNameInput"  placeholder="Enter first name">
+                    </div>
+                    <div class="form-group">
+                      <label for="lastNameInput">Last Name</label>
+                      <input type="text" class="form-control" id="lastNameInput"  placeholder="Enter last name">
+                    </div>
+                  <!-- <div class="form-group">
+                    <label for="emailInput">Email address</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div> -->
+                  <div class="form-group">
+                    <label for="emailInput">Email Address</label>
+                  <input type="email" name="email" placeholder="Enter email address eg: you@example.com" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                  <div class="valid-feedback feedback-pos">
+                    <p>Looks good!</p>
+                  </div>
+                  <div class="invalid-feedback feedback-pos">
+                    <p>Please input valid email ID</p>
+                  </div>
+                </div>
+
+                  <div class="form-group">
+                      <label for="formQuery">What can I do for you?</label>
+                      <textarea class="form-control" id="formQuery" rows="3" placeholder="Ask a question..."></textarea>
+                    </div>
+                  <div class="form-group form-check">
+
+                  </div>
+                  <button type="submit" class="mb-5 btn btn-info">Submit</button>
+                </form>
+              </div>
+            
+
+
+                <div class="col-md-3">
+                  <h2>Github</h2>
+                  <a href="https://github.com/murphste" target="_blank">
+                    <img src="img/github_web_grey.png" alt="github" class="rounded-circle">
+                  </a>
+                </div>
+              </div>
+              </div>
+        </div>
+          </footer>
+        </a>
+
+
+
+
+
+          <!-- <div class="mt-5 mb-5 container-fluid text-center"> -->
+              <!-- <h3>Socials</h3>
+              <div class="footer">
+              <div class="mt-5 mb-5 contact">
+                <img src="img/github_web_grey.png" class="ml-5 mr-5 rounded-circle">
+
+                <img src="img/linkedin_web_grey.jpg" class="ml5 mr-5rounded-circle">
+              </div>
+            </div> -->
+          <!-- </div> -->
+
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+</html>
